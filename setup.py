@@ -59,7 +59,7 @@ setup(
 	classifiers = classifiers,
 	packages=["ledgerhelpers",
               "ledgerhelpers.programs"],
-	data_files = data_files,
+	# data_files = data_files,
 	scripts=["bin/%s" % p for p in programs],
 	keywords="accounting ledger ledger-cli",
 	requires=["ledger", "yahoo_finance"],
